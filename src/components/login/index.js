@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaSpotify } from 'react-icons/fa';
 
-const Login = () => {
+const Login = (props) => {
   return (
     <>
       <div className="App">
         <button>
-          <a href="http://localhost:8888">
+          <a href={props.link}>
             <FaSpotify />
             Login
           </a>
