@@ -1,0 +1,22 @@
+.btn{
+  background-color: transparent;
+  color:#F1F1F1;
+  border-color: #1DB954;
+  border-radius: 25px;
+  width:260px;
+  height:143px;
+  position: absolute;
+  
+  bottom: 45%;
+}
+
+.btnH{
+  left:15%;
+}
+.btnS{
+  left:35%;
+}
+
+.btnA{
+  left:55%;
+}

@@ -3,6 +3,7 @@ import axios from 'axios';
 import SadSvg from './moods/SadSvg';
 import HappySvg from './moods/HappySvg';
 import AngrySvg from './moods/AngrySvg';
+import style from './Mood.module.css';
 
 const Mood = (props) => {
   const token = localStorage.getItem('user');
@@ -20,7 +21,7 @@ const Mood = (props) => {
 
   return (
     <section>
-      <button>
+      <button className={(style.btn, style.btnH)}>
         <a
           onClick={() => {
             getData('37i9dQZF1DWTwbZHrJRIgD');
@@ -30,7 +31,7 @@ const Mood = (props) => {
         </a>
       </button>
 
-      <button>
+      <button className={(style.btn, style.btnS)}>
         <a
           onClick={() => {
             getData('37i9dQZF1DX7qK8ma5wgG1');
@@ -40,7 +41,7 @@ const Mood = (props) => {
         </a>
       </button>
 
-      <button>
+      <button className={(style.btn, style.btnA)}>
         <a
           onClick={() => {
             getData('37i9dQZF1DXaKgOqDv3HpW');

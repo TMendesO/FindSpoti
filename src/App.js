@@ -3,6 +3,8 @@ import axios from 'axios';
 import './App.css';
 import Login from './components/login';
 import Mood from './components/mood';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App = () => {
   const authEndpoint = 'https://accounts.spotify.com/authorize?';
@@ -43,13 +45,15 @@ const App = () => {
   setToken();
 
   return (
-    <div className="App">
+    <div className="App container">
+      <Header />
       <Login
         link={`${authEndpoint}client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
           '%20',
         )}&response_type=token&show_dialog=true`}
       />
       <Mood />
+      <Footer />
     </div>
   );
 };

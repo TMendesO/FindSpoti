@@ -1,0 +1,21 @@
+.bg{
+  background-color: #121212;
+  position:absolute;
+  
+  bottom:0;
+  width:100%;
+  height:10%;
+}
+
+.logo{
+  background-image: url('../components/img/FindSpoti.png');
+  background-repeat: no-repeat;  
+  background-position:19px;
+  background-size: contain;
+  
+    width: 18%;
+  height: 100%;
+
+
+
+}

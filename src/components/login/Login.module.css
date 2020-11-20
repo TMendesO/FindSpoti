@@ -1,0 +1,18 @@
+.btn{
+  background-color: transparent;
+  color:#F1F1F1;
+  border-color: #1DB954;
+  border-radius: 25px;
+  width: 240px;
+  height: 56px;
+  position: absolute;
+  left:35%;
+  bottom: 19%;
+}
+
+.link{
+  text-align: center;
+  color:#F1F1F1;
+  text-decoration: none;
+  font-size: 28px;
+}

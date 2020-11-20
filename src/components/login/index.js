@@ -1,14 +1,13 @@
 import React from 'react';
-import { FaSpotify } from 'react-icons/fa';
+import style from './Login.module.css';
 
 const Login = (props) => {
   return (
     <>
       <div className="App">
-        <button>
-          <a href={props.link}>
-            <FaSpotify />
-            Login
+        <button className={style.btn}>
+          <a className={(style.btn, style.link)} href={props.link}>
+            Login on spotify
           </a>
         </button>
       </div>
