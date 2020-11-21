@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import axios from 'axios';
 import './App.css';
 import Login from './components/login';
@@ -9,7 +10,7 @@ import Footer from './components/Footer';
 const App = () => {
   const authEndpoint = 'https://accounts.spotify.com/authorize?';
   const clientId = '2ca4071725d44b37b5507295bcaeeabb';
-  const redirectUri = 'http://localhost:3000';
+  const redirectUri = 'http://localhost:3000/mood';
   const scopes = ['user-read-currently-playing', 'user-read-playback-state'];
 
   // Get the hash of the url
@@ -46,14 +47,26 @@ const App = () => {
 
   return (
     <div className="App container">
-      <Header />
-      <Login
-        link={`${authEndpoint}client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
-          '%20',
-        )}&response_type=token&show_dialog=true`}
-      />
-      <Mood />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <div className="content">
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={
+                <Login
+                  link={`${authEndpoint}client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
+                    '%20',
+                  )}&response_type=token&show_dialog=true`}
+                />
+              }
+            />
+            <Route path="mood" element={<Mood />} />
+          </Routes>
+        </div>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 };

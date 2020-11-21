@@ -1,5 +1,5 @@
 .btn{
-  background-color: transparent;
+  background-color: #1DB954;
   color:#F1F1F1;
   border-color: #1DB954;
   border-radius: 25px;
@@ -14,5 +14,6 @@
   text-align: center;
   color:#F1F1F1;
   text-decoration: none;
+  font-family: Rubik,Helvetica, sans-serif;
   font-size: 28px;
 }

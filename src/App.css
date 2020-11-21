@@ -1,3 +1,8 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Rubik,Helvetica, sans-serif;
+}
 .container {
   background-image: url('./components/img/bg-fundo.jpg');
   width: 100%; 

@@ -4,6 +4,7 @@ import SadSvg from './moods/SadSvg';
 import HappySvg from './moods/HappySvg';
 import AngrySvg from './moods/AngrySvg';
 import style from './Mood.module.css';
+import Head from '../Head';
 
 const Mood = (props) => {
   const token = localStorage.getItem('user');
@@ -21,7 +22,8 @@ const Mood = (props) => {
 
   return (
     <section>
-      <button className={(style.btn, style.btnH)}>
+      <Head title="FindSpoti | Moods" description="Entre em contato" />
+      <button className={style.btn}>
         <a
           onClick={() => {
             getData('37i9dQZF1DWTwbZHrJRIgD');
@@ -31,7 +33,7 @@ const Mood = (props) => {
         </a>
       </button>
 
-      <button className={(style.btn, style.btnS)}>
+      <button className={style.btn}>
         <a
           onClick={() => {
             getData('37i9dQZF1DX7qK8ma5wgG1');
@@ -41,7 +43,7 @@ const Mood = (props) => {
         </a>
       </button>
 
-      <button className={(style.btn, style.btnA)}>
+      <button className={style.btn}>
         <a
           onClick={() => {
             getData('37i9dQZF1DXaKgOqDv3HpW');
