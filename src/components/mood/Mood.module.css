@@ -1,9 +1,26 @@
-.btn{
+.btnH,.btnS,.btnA{  
   background-color:transparent;
   border-color: #1DB954;
-  border-radius: 25px;
-  margin-left: 5rem;
-  position: relative;
-  left:250px;
-  top: 350px;
+  border-radius: 25px;  
+  cursor: pointer;
+  display: inline-block;
+ 
+  }
+.btnH{
+  position:fixed;
+  left:20%;
+  bottom: 20%; 
+ 
+  
+}
+.btnS{
+  position: fixed;
+  left:43%;
+  bottom: 20%; 
+}
+.btnA{
+  
+  position: fixed;
+  left:66%;
+  bottom: 20%; 
 }

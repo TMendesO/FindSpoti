@@ -1,13 +1,14 @@
 .btn{
   background-color: #1DB954;
   color:#F1F1F1;
-  border-color: #1DB954;
+  border: none;
   border-radius: 25px;
   width: 240px;
   height: 56px;
-  position: absolute;
-  left:35%;
+  position: fixed;
+  left:41%;
   bottom: 19%;
+  text-align: center;
 }
 
 .link{

@@ -23,34 +23,31 @@ const Mood = (props) => {
   return (
     <section>
       <Head title="FindSpoti | Moods" description="Entre em contato" />
-      <button className={style.btn}>
-        <a
-          onClick={() => {
-            getData('37i9dQZF1DWTwbZHrJRIgD');
-          }}
-        >
-          <HappySvg />
-        </a>
+      <button
+        className={style.btnH}
+        onClick={() => {
+          getData('37i9dQZF1DWTwbZHrJRIgD');
+        }}
+      >
+        <HappySvg />
       </button>
 
-      <button className={style.btn}>
-        <a
-          onClick={() => {
-            getData('37i9dQZF1DX7qK8ma5wgG1');
-          }}
-        >
-          <SadSvg />
-        </a>
+      <button
+        className={style.btnS}
+        onClick={() => {
+          getData('37i9dQZF1DX7qK8ma5wgG1');
+        }}
+      >
+        <SadSvg />
       </button>
 
-      <button className={style.btn}>
-        <a
-          onClick={() => {
-            getData('37i9dQZF1DXaKgOqDv3HpW');
-          }}
-        >
-          <AngrySvg />
-        </a>
+      <button
+        className={style.btnA}
+        onClick={() => {
+          getData('37i9dQZF1DXaKgOqDv3HpW');
+        }}
+      >
+        <AngrySvg />
       </button>
     </section>
   );

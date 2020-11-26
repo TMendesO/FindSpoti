@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 const App = () => {
   const authEndpoint = 'https://accounts.spotify.com/authorize?';
   const clientId = '2ca4071725d44b37b5507295bcaeeabb';
-  const redirectUri = 'http://localhost:3000/mood';
+  const redirectUri = 'http://findspoti.surge.sh/mood';
   const scopes = ['user-read-currently-playing', 'user-read-playback-state'];
 
   // Get the hash of the url
