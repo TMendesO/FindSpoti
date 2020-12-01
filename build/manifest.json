@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "FindSpoti",
+  "name": "FindSpoti encontre playlist de acordo com seu humor",
   "icons": [
     {
       "src": "favicon.ico",

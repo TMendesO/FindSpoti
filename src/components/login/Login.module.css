@@ -16,5 +16,86 @@
   color:#F1F1F1;
   text-decoration: none;
   font-family: Rubik,Helvetica, sans-serif;
-  font-size: 28px;
+  font-size:150%;
+}
+@media only screen and (min-width: 355px ) and (max-width: 478px) {
+  .btn{    
+    width: 240px;
+    height: 56px;
+    position: fixed;
+    left:30%;
+    bottom: 19%;
+    text-align: center;
+  }
+  .link{
+   
+    font-size:150%;
+  }
+}
+
+@media only screen and (min-width: 479px ) and (max-width: 767px) {
+  .btn{    
+    width: 240px;
+    height: 56px;
+    position: fixed;
+    left:30%;
+    bottom: 19%;
+    text-align: center;
+  }
+  
+  .link{
+   
+    font-size:200%;
+  }
+
+}
+
+@media only screen and (min-width: 768px)  and (max-width: 991px){
+  .btn{    
+    width: 240px;
+    height: 56px;
+    position: fixed;
+    left:30%;
+    bottom: 19%;
+    text-align: center;
+  }
+  
+  .link{
+   
+    font-size:200%;
+  }
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .btn{    
+    width: 240px;
+    height: 56px;
+    position: fixed;
+    left:30%;
+    bottom: 19%;
+    text-align: center;
+  }
+  
+  .link{
+   
+    font-size:200%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn{    
+    width: 240px;
+    height: 56px;
+    position: fixed;
+    left:41%;
+    bottom: 19%;
+    text-align: center;
+  }
+  
+  .link{
+   
+    font-size:200%;
+  }
 }

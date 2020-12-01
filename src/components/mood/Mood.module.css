@@ -6,21 +6,116 @@
   display: inline-block;
  
   }
-.btnH{
-  position:fixed;
-  left:20%;
-  bottom: 20%; 
- 
+
+  @media only screen and (min-width: 355px ) and (max-width: 478px) {
+    .btnH{
+      position:fixed;
+      border: none;      
+      bottom: 20%; 
+    }
+    
+    .btnS{
+      position: fixed;
+      border: none;
+      left:30%;
+      bottom: 20%
+    }
+    .btnA{
+      position: fixed;
+      border: none;
+      left:60%;
+      bottom: 20%; 
+    }
   
+  }
+
+  @media only screen and (min-width: 479px ) and (max-width: 767px) {
+  .btnH{
+    position:fixed;
+    border: none;
+    left:20%;
+    bottom: 20%;   
+   
+    
+  }
+  .btnS{
+    position: fixed;
+    border: none;
+    left:43%;
+    bottom: 20%
+  }
+  .btnA{
+    position: fixed;
+    border: none;
+    left:66.2%;
+    bottom: 20%; 
+  }
+
 }
-.btnS{
-  position: fixed;
-  left:43%;
-  bottom: 20%; 
-}
-.btnA{
+@media only screen and (min-width: 768px)  and (max-width: 991px) {
   
-  position: fixed;
-  left:66%;
-  bottom: 20%; 
+  .btnH{
+    position:fixed;    
+    left:19.9%;
+    bottom: 20%; 
+   
+    
+  }
+  .btnS{
+    position: fixed;
+    
+    left:43%;
+    bottom: 20%; 
+  }
+  .btnA{
+    position: fixed;
+    
+    left:66%;
+    bottom: 20%; 
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  
+  .btnH{
+    position:fixed;
+    left:26%;
+    bottom: 20%;
+   
+    
+  }
+  .btnS{
+    position: fixed;
+    left:43%;
+    bottom: 20%;
+  }
+  .btnA{
+    
+    position: fixed;
+    left:60%;
+    bottom: 20%; 
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  .btnH{
+    position:fixed;
+    left:29.9%;
+    bottom: 20%; 
+   
+    
+  }
+  .btnS{
+    position: fixed;
+    left:43%;
+    bottom: 20%; 
+  }
+  .btnA{
+    
+    position: fixed;
+    left:56%;
+    bottom: 20%; 
+  }
 }

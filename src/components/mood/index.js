@@ -26,7 +26,7 @@ const Mood = (props) => {
       <button
         className={style.btnH}
         onClick={() => {
-          getData('37i9dQZF1DWTwbZHrJRIgD');
+          getData('37i9dQZF1DX84kJlLdo9vT');
         }}
       >
         <HappySvg />
@@ -35,7 +35,7 @@ const Mood = (props) => {
       <button
         className={style.btnS}
         onClick={() => {
-          getData('37i9dQZF1DX7qK8ma5wgG1');
+          getData('595aMpKoFKMN3JEBsjRbMd');
         }}
       >
         <SadSvg />
